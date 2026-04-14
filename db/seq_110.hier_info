@@ -1,0 +1,12 @@
+|seq_110
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state.DB_MAX_OUTPUT_PORT_TYPE
+in => nxt.S2.DATAB
+in => nxt.S3.DATAB
+in => Selector0.IN2
+in => pre.S1.DATAIN
+clk => pre~1.DATAIN
+rst_in => pre~3.DATAIN
+
+

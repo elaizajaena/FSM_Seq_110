@@ -30,10 +30,10 @@ Date:
 // input block
 	always @(in,pre)begin
 		case(pre)
-			S0: nxt = in? S1: S0;
-			S1: nxt = in? S1: S2;
-			S2: nxt = in? S3: S0;
-			S3: nxt = in? S1: S2;
+			S0: nxt = in? S0: S1;
+			S1: nxt = in? S2: S1;
+			S2: nxt = in? S3: S1;
+			S3: nxt = in? S0: S1;
 			default: nxt = S0;
 		endcase
 	end

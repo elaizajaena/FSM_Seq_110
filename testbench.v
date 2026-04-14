@@ -9,7 +9,7 @@ module testbench;
 
 
 // instantiate seq_101
-seq_101 dut (
+seq_110 dut (
 	.out	  (out),
 	.state  (state),
 	.in	  (in),

@@ -1,0 +1,19 @@
+# Compile of seq_110.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of seq_110.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:03:34 on Apr 14,2026
+# Loading work.testbench
+# Loading work.seq_110
+add wave -position end  sim:/testbench/state
+add wave -position end  sim:/testbench/rst_in
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+run
+# End time: 11:06:11 on Apr 14,2026, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 4

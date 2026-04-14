@@ -25,13 +25,13 @@ seq_101 dut (
 	 rst_in = 0;
 	 repeat (3) @(negedge clk);
 	 rst_in = 1;
-	 in =1; @(negedge clk);
-	 in =0; @(negedge clk);
-	 in =1; @(negedge clk);
 	 in =0; @(negedge clk);
 	 in =1; @(negedge clk);
 	 in =1; @(negedge clk);
 	 in =0; @(negedge clk);
+	 in =1; @(negedge clk);
+	 in =1; @(negedge clk);
+	 in =1; @(negedge clk);
 	 in =0; @(negedge clk);
 	 
 		
